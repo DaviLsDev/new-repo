@@ -152,9 +152,7 @@
   line-height: 20px;
   color: #838383;
 }
-/* =========================================
-   ETAPA 2: Secção de Eventos (events e person)
-   ========================================= */
+
 .events {
   padding: 100px 0 120px 80px;
   display: flex;
@@ -217,16 +215,12 @@
   text-decoration: none;
 }
 
-.events__more:hover {
-  color: #1f69c9;
-}
-
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  position: relative; /* Essencial para que os filhos absolutos se posicionem em relação a este contentor[cite: 21] */
+  position: relative;
 }
 
 .events__image {
@@ -285,9 +279,8 @@
 .person__caption {
   text-align: center;
   font-size: 14px;
-  margin:0;
+  margin: 0;
 }
-
 
 .membership {
   padding: 100px 0 140px;
@@ -333,7 +326,6 @@
 .step__description {
   margin: 10px 0 0;
 }
-
 
 .footer {
   box-sizing: border-box;
@@ -384,10 +376,6 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-}
-
-.footer__column-link:hover {
-  color: #c1c1c1;
 }
 
 .footer__social-icon {
